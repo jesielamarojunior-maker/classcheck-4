@@ -38,7 +38,14 @@ Crie um arquivo `.env` nas pastas backend e frontend com as variáveis necessár
 
 ## 🚀 Deploy
 
-Este projeto está configurado para deploy no Vercel.
+### Frontend (Vercel)
+O frontend está configurado para deploy automático no Vercel.
+
+**Variáveis de ambiente necessárias:**
+- `REACT_APP_BACKEND_URL` - URL do backend no Render
+
+### Backend (Render)
+O backend está hospedado no Render.
 
 ## 📝 Licença
 
