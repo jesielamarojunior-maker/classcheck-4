@@ -55,3 +55,6 @@ test_update_fabiana.py
 # Package lock files (opcional, descomente se necessário)
 # package-lock.json
 # yarn.lock
+
+.vercel
+.env*.local
