@@ -1,0 +1,57 @@
+# Arquivos de ambiente com credenciais sensíveis
+.env
+backend/.env
+frontend/.env
+*.env.local
+*.env.*.local
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Databases
+*.db
+*.sqlite
+
+# Build outputs
+dist/
+build/
+frontend/build/
+
+# Debug files
+debug-auth.js
+fix_encoding.py
+test_update_fabiana.py
+*.backup
+
+# Package lock files (opcional, descomente se necessário)
+# package-lock.json
+# yarn.lock
